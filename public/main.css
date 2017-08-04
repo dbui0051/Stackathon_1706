@@ -1,0 +1,23 @@
+body {
+   background-color: grey;
+   margin: 0;
+}
+
+div {
+	background-color: beige;
+	border: solid black 1px;
+}
+
+#game {
+	background-color: white
+}
+
+h1 {
+	background-color: silver;
+	width: 20%;
+	border: solid black 1px;
+}
+
+canvas {
+    margin: 0% auto
+}

@@ -4,8 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js -e html,js,css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "craftyjs": "^0.8.0",
+    "express": "^4.15.3",
+    "nunjucks": "^3.0.1",
+    "phaser-ce": "^2.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
